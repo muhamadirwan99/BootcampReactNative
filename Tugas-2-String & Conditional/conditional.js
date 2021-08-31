@@ -5,12 +5,12 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 
-rl.question("Input nama = ", function(nama) {
+rl.question("Nama = ", function(nama) {
     if(nama === ""){
         console.log("Nama harus diisi!");
         rl.close();
     }else{
-        rl.question("Peran = ", function(peran) {
+        rl.question("Peran (Penyihir/Guard/Werewolf) = ", function(peran) {
             if(nama != null && peran == "Penyihir" || peran == "penyihir"){
                 console.log(`\nHalo Penyihir ${nama}, kamu dapat melihat siapa yang menjadi werewolf!`);
             }else if(nama != null && peran === "Guard" || peran == "guard"){
