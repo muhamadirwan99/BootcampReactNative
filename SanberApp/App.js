@@ -5,11 +5,13 @@ import { StyleSheet, Text, View } from 'react-native';
 import Telegram from './Tugas/Tugas12/Telegram';
 import Login from './Tugas/Tugas16/LoginScreen';
 import About from './Tugas/Tugas16/AboutScreen';
+import RestApi from './Tugas/Tugas17/RestApi';
 
 export default function App() {
   return (
    // <Login />
-   <About />
+   //<About />
+   <RestApi />
   );
 }
 
