@@ -9,6 +9,7 @@ import About from './Tugas/Tugas16/AboutScreen';
 import RestApi from './Tugas/Tugas17/RestApi';
 import Tugas15 from './Tugas/Tugas15/index';
 import Tugas18 from './Tugas/Tugas18/index';
+import Quiz3 from './Tugas/Quiz3/index';
 
 export default function App() {
   return (
@@ -16,7 +17,8 @@ export default function App() {
    //<About />
    //<RestApi />
    // <Tugas15 />
-    <Tugas18 />
+   // <Tugas18 />
+   <Quiz3 />
    );
 }
 
